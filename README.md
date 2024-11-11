@@ -41,11 +41,11 @@ Con el entorno virtual activado y las dependencias instaladas, ejecuta la aplica
 
 1. Clona el repositorio desde GitHub (suponiendo que el código está en GitHub):
    ```bash
-   git clone <URL_DEL_REPOSITORIO>
+   git clone https://github.com/carlosalonso99-tajamar/sql-app.git
    ```
    Navega hasta el directorio del proyecto clonado:
    ```bash
-   cd <NOMBRE_DEL_REPOSITORIO>
+   cd sql-app
    ```
 
 2. Ejecuta la aplicación Flask:
@@ -63,7 +63,7 @@ Esto iniciará el servidor en `http://127.0.0.1:5000/`. Abre tu navegador y visi
    - Usa el cuadro de texto para escribir consultas **SQL** y ver los resultados en una tabla HTML.
    - Ejemplo de consulta:
      ```sql
-     SELECT * FROM table_name WHERE arrival_delay > 100;
+     SELECT * FROM tabla ;
      ```
 
 ## Notas

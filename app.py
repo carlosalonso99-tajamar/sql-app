@@ -98,7 +98,7 @@ def index():
         query = request.form['query']
 
         # Conectar a la base de datos SQLite
-        conn = sqlite3.connect('flights.db')
+        conn = sqlite3.connect('database.db')
         c = conn.cursor()
 
         try:
@@ -135,7 +135,7 @@ def upload_csv():
         c = conn.cursor()
 
         # Crear la tabla dinámicamente según las columnas del CSV
-        table_name = 'vuelos'
+        table_name = 'tabla'
         columns = ', '.join([f"{col} TEXT" for col in df.columns])
         c.execute(f"DROP TABLE IF EXISTS {table_name}")
         c.execute(f"CREATE TABLE {table_name} ({columns})")
