@@ -1,7 +1,7 @@
 # README: Aplicación Flask con SQLite
 
 Este README proporciona instrucciones detalladas para crear un entorno de desarrollo y levantar una **aplicación Flask** que permite subir archivos **CSV** para crear una base de datos **SQLite** y realizar consultas SQL a través de una interfaz web.
-
+![alt text]({42B00AC1-021F-4D5F-9CB0-CBB6276073F1}.png)
 ## Requisitos Previos
 - **Python 3.x** instalado.
 - **pip** (gestor de paquetes de Python).
